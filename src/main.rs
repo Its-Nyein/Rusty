@@ -1,6 +1,7 @@
 mod variables;
 mod datatypes;
 mod functions;
+mod conditions;
 
 fn main() {
     // fn is function main is entry point
@@ -9,4 +10,5 @@ fn main() {
     variables::run();
     datatypes::run();
     functions::run();
+    conditions::run();
 }

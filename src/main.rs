@@ -1,7 +1,8 @@
-mod variables;
+mod conditions;
 mod datatypes;
 mod functions;
-mod conditions;
+mod ownership;
+mod variables;
 
 fn main() {
     // fn is function main is entry point
@@ -11,4 +12,5 @@ fn main() {
     datatypes::run();
     functions::run();
     conditions::run();
+    ownership::run();
 }

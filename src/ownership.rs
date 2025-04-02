@@ -75,9 +75,26 @@ impl BankAccount {
     }
 }
 
+// umm forgot to demonstrate about struct enums
+// Structs & Enums (Like Objects in JavaScript)
+
+struct User {
+    name: String,
+    age: u8,
+}
+
+fn user() {
+    let user = User {
+        name: String::from("Alice"),
+        age: 25,
+    };
+    println!("User: {} is {} years old", user.name, user.age);
+}
+
 pub fn run() {
     main();
     borrowing();
     owner();
     account();
+    user();
 }

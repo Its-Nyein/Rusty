@@ -4,6 +4,7 @@ mod error_handling;
 mod functions;
 mod ownership;
 mod variables;
+mod collections;
 
 fn main() {
     // fn is function main is entry point
@@ -15,4 +16,5 @@ fn main() {
     conditions::run();
     ownership::run();
     error_handling::run();
+    collections::run();
 }

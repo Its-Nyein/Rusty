@@ -1,5 +1,6 @@
 mod conditions;
 mod datatypes;
+mod error_handling;
 mod functions;
 mod ownership;
 mod variables;
@@ -13,4 +14,5 @@ fn main() {
     functions::run();
     conditions::run();
     ownership::run();
+    error_handling::run();
 }

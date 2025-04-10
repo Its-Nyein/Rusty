@@ -5,6 +5,7 @@ mod functions;
 mod ownership;
 mod variables;
 mod collections;
+mod guessing_game;
 
 fn main() {
     // fn is function main is entry point
@@ -17,4 +18,5 @@ fn main() {
     ownership::run();
     error_handling::run();
     collections::run();
+    guessing_game::run();
 }
